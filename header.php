@@ -81,7 +81,6 @@ echo get_template_directory_uri();
         </nav>
     </div>
 	<header role="banner">
-        <div id="background-container"></div>
         <?php if (is_home() || is_front_page()): ?>
             <div class="container">
         	    <div>
