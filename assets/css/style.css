@@ -1,0 +1,46 @@
+/* =====================================================================
+   Bootstrap v.3.0.0 RC1 fixes
+   ===================================================================== */
+
+
+@media screen and (min-width: 768px) {
+  .navbar-text {
+    float: left;
+  }
+}
+
+/*
+ * Used in searchform.php, in Chrome and Safari, input[type=search] doesn't
+ * properly obey padding.
+ */
+ input[type=search].form-control { padding-left: 0;}
+
+/* =====================================================================
+   Author's custom styles
+   ===================================================================== */
+/* HTML5Boilerplate's non-semantic helper class */
+.screen-reader {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Landscape phones and down */
+@media (min-width: 480px) {
+  .assistive-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
